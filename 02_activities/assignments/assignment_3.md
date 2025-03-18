@@ -50,7 +50,7 @@
  
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    I focused on the most relevant features that directly answer the main question of the visualization: the relationship between tourism spending and receipts. Specifically, I chose the Visitor Spending and Tourism Receipts as the key variables, as they are central to understanding the economic impact of tourism.  The Impact category (e.g., Total, Direct) was included to provide deeper insights into the segmentation of the data, allowing for a more detailed understanding of how different levels of impact (Total vs. Direct) contribute to the overall tourism economy.
+    I focused on the most relevant features that directly answer the main question of the visualization: the relationship between tourism spending and receipts. Specifically, Igit  chose the Visitor Spending and Tourism Receipts as the key variables, as they are central to understanding the economic impact of tourism.  The Impact category (e.g., Total, Direct) was included to provide deeper insights into the segmentation of the data, allowing for a more detailed understanding of how different levels of impact (Total vs. Direct) contribute to the overall tourism economy.
     Additionally, given the capabilities of the tools I used (Python and Excel), I made selections based on what could be easily represented and interpreted in the context of both tools. In Python, I had the flexibility to handle more complex data manipulations, while in Excel, I focused on a simpler representation of the key variables.
     I intentionally excluded variables that would have cluttered the visualization or detracted from the main message.
 
@@ -58,6 +58,8 @@
     I spent time analyzing the dataset to understand the relationships between the features and and making decisions about which features were most relevant to the final visualization. For example, I had to determine that Visitor Spending and Tourism Receipts were the core variables for my analysis and visualization, while excluding less relevant columns.
     he design of the visualizations involved several decisions to ensure they were clear, effective, and aesthetically pleasing. This included choosing the right chart types (scatter plot and area chart), selecting appropriate colors and symbols, and formatting axis labels for clarity. 
     I used the np.random.seed(123) method to ensure that the results were consistent and reproducible every time the script is run. For Excel, I had to manually save the file in a way that ensured the data and chart would remain intact when reopened.
+
+    ![Tourism Chart](tourism_chart.png)
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
